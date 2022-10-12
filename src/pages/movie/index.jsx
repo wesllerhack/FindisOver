@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom';
 import * as Bs from 'react-icons/bs';
 import './styles.css'
-import MovieCard from '../../../components/movieCard';
+import MovieCard from '../../components/movieCard';
 
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
